@@ -1,0 +1,46 @@
+.Intro{
+    color: azure;
+}
+body{
+    background-image: url('./image/lister.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1538px 1000px;
+}
+.title{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.to-do{
+    color:black;
+}
+
+.form{
+    margin:auto;
+    max-width: 80%;
+    text-align: center;
+}
+input [type="submit"] , button, [aria-label]{
+    cursor: pointer;
+
+}
+#edit-box{
+    display: none;
+    max-width: 84%;
+    margin: auto;
+    margin-top: 10px;
+
+
+}
+#stuff{
+    color:red;
+    font-size: large;
+    
+    
+}
+#count{
+    font-size: x-large;
+}
